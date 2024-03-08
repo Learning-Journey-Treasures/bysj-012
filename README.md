@@ -1,6 +1,10 @@
-# 基于SSM的校园二手交易平台+小程序+论文示例参考
+**[点我获取源码](https://x-x.fun/e/QH67dda8a8v3q)💕🤞**
 
-#### 介绍
+**[点我获取源码+论文](https://x-x.fun/e/LH265f505fs4n)💕🤞**
+
+**郑重声明：项目经过本地测试，确保可以运行。由于精力有限，不提供调试服务。项目仅供学习和毕业设计参考~**
+
+#### 1.项目介绍
 技术栈+工具：SSM + vue + uniapp + MySQL5 + Maven + IDEA2022 
 
 系统角色： 管理员、卖家、普通用户
@@ -10,36 +14,33 @@
 卖家：商品管理、订单管理、发货管理、仲裁申请、留言板
 
 普通用户：订单信息、商品信息、发货信息、仲裁申请、留言板
+#### 2.项目部署
+##### 2.1 后端部署
 
-#### 软件架构
-软件架构说明
+- 创建数据库，导入项目中的sql
 
+- 根据本地数据库环境，修改数据库的连接信息 src/main/resources/config.properties 3-5行
 
-#### 安装教程
+- 创建Tomcat server，设置deployment标签下的Application context 路径为： /ssm5noeq
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 启动后端项目
 
-#### 使用说明
+##### 2.2 管理web
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 在idea的终端中，通过cd指令进入到前端的项目目录，即 src/main/webapp/admin
 
-#### 参与贡献
+- 执行npm install 
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- 执行 npm run serve  本地的Node版本是12， 太高了会报错
 
+- 启动后，点击url，登录即可， 管理员账号密码： abo/123456
 
-#### 特技
+##### 2.3 小程序端
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 项目内提供了uniapp项目，即目录src/main/webapp/front， 这个留着学习用即可，可以自行编译，我们采用另外的方式
+
+- 打开微信开发工具，导入项目 mp-weixin
+
+- 选择测试号即可（你需要登录微信开发工具哦~）
+
+- 登录即可（记得按提示选角色）普通用户账号密码： 花花/123456  卖家用户账号密码： t小木/123456 ，可以去表里自行查看
