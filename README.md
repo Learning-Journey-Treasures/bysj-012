@@ -42,3 +42,9 @@
 - 选择测试号即可（你需要登录微信开发工具哦~）
 
 - 登录即可（记得按提示选角色）普通用户账号密码： 花花/123456  卖家用户账号密码： t小木/123456 ，可以去表里自行查看
+![1](https://github.com/Learning-Journey-Treasures/bysj-012/blob/master/1.png)
+![1](https://github.com/Learning-Journey-Treasures/bysj-012/blob/master/2.png)
+![1](https://github.com/Learning-Journey-Treasures/bysj-012/blob/master/3.png)
+![1](https://github.com/Learning-Journey-Treasures/bysj-012/blob/master/6.png)
+![1](https://github.com/Learning-Journey-Treasures/bysj-012/blob/master/7.png)
+![1](https://github.com/Learning-Journey-Treasures/bysj-012/blob/master/8.png)
